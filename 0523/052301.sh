@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo du -b ~/* | wc -l
+find ~/ -type f | wc -l
